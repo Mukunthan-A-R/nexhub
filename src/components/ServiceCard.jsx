@@ -14,7 +14,7 @@ function ServiceCard({ key: keyVal, name, role, phone, location }) {
       <div className="space-y-1">
         <h3 className="font-semibold text-gray-900">{name}</h3>
 
-        <p className="text-sm text-purple-700">{role}</p>
+        {/* <p className="text-sm text-purple-700">{role}</p> */}
 
         <div className="flex items-center gap-1 text-xs text-gray-500">
           <MapPin size={14} />
