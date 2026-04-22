@@ -24,13 +24,12 @@ export default function Navbar() {
             <Link to="/" className="hover:text-white transition">
               Homes
             </Link>
-
-            <a href="#" className="hover:text-white transition">
+            <Link to="/about" className="hover:text-white transition">
               About
-            </a>
-            <a href="#" className="hover:text-white transition">
+            </Link>
+            <Link to="/help" className="hover:text-white transition">
               Contact
-            </a>
+            </Link>
           </nav>
         </div>
 
