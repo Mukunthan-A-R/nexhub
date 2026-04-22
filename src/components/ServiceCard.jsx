@@ -1,12 +1,15 @@
 import { Phone, Copy, MapPin } from "lucide-react";
 
-function ServiceCard({ name, role, phone, location }) {
+function ServiceCard({ key: keyVal, name, role, phone, location }) {
   const handleCopy = () => {
     navigator.clipboard.writeText(phone);
   };
 
   return (
-    <div className="bg-white border border-purple-100 rounded-xl p-4 flex flex-col md:flex-row md:items-center md:justify-between gap-4 hover:shadow-md transition">
+    <div
+      key={keyVal}
+      className="bg-white border border-purple-100 rounded-xl p-4 flex flex-col md:flex-row md:items-center md:justify-between gap-4 hover:shadow-md transition"
+    >
       {/* LEFT */}
       <div className="space-y-1">
         <h3 className="font-semibold text-gray-900">{name}</h3>

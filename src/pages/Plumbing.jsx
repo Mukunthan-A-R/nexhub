@@ -20,9 +20,12 @@ const Plumbing = () => {
   ];
 
   return (
-    <div>
+    <div className="min-h-screen flex flex-col bg-[#f8f4fb] ">
       <Navbar />
-      <ServiceList title="Plumbing" data={data} />
+
+      <div className="flex-1">
+        <ServiceList title="Plumbing" data={data} />
+      </div>
       <Footer />
     </div>
   );
