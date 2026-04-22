@@ -1,4 +1,5 @@
 import { MapPin, Search, User } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
@@ -19,15 +20,16 @@ export default function Navbar() {
           </div>
 
           {/* Nav Links */}
-          <nav className="flex items-center gap-6 text-sm text-purple-200">
-            <a href="#" className="hover:text-white transition">
+          <nav className="flex items-center gap-6 text-sm text-purple-200 font-medium">
+            <Link to="/" className="hover:text-white transition">
               Homes
+            </Link>
+
+            <a href="#" className="hover:text-white transition">
+              About
             </a>
             <a href="#" className="hover:text-white transition">
-              Native
-            </a>
-            <a href="#" className="hover:text-white transition">
-              Beauty
+              Contact
             </a>
           </nav>
         </div>
