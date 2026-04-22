@@ -7,7 +7,7 @@ export default function BusinessOverview() {
           <img
             src="https://www.fplglaw.com/wp-content/uploads/2024/05/books-8594725_640.jpg"
             alt="business"
-            className="w-full h-[300px] md:h-[420px] object-cover rounded-2xl shadow-lg"
+            className="w-full h-75 md:h-105 object-cover rounded-2xl shadow-lg"
           />
 
           {/* Soft glow */}
