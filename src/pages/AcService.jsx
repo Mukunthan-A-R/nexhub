@@ -6,16 +6,34 @@ import ServiceList from "../components/ServiceList";
 const AcService = () => {
   const data = [
     {
-      name: "Ravi Plumbing Works",
-      role: "Plumber",
-      phone: "+91 9876543210",
+      name: "Arun Kumar",
+      role: "AC Service",
+      phone: "+91 9845123670",
       location: "Sembakkam, Chennai",
     },
     {
-      name: "Suresh Electricals",
-      role: "Electrician",
-      phone: "+91 9123456780",
+      name: "Vikram Singh",
+      role: "AC Service",
+      phone: "+91 9786452310",
       location: "Medavakkam, Chennai",
+    },
+    {
+      name: "Rahul Sharma",
+      role: "AC Service",
+      phone: "+91 9901234567",
+      location: "Velachery, Chennai",
+    },
+    {
+      name: "Karthik Raj",
+      role: "AC Service",
+      phone: "+91 9678452312",
+      location: "Tambaram, Chennai",
+    },
+    {
+      name: "Manoj Verma",
+      role: "AC Service",
+      phone: "+91 9812345678",
+      location: "Perumbakkam, Chennai",
     },
   ];
 

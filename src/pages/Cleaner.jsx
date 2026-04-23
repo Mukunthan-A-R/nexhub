@@ -6,16 +6,40 @@ import ServiceList from "../components/ServiceList";
 const Cleaner = () => {
   const data = [
     {
-      name: "Ravi Plumbing Works",
-      role: "Plumber",
-      phone: "+91 9876543210",
-      location: "Sembakkam, Chennai",
+      name: "Ajay Nair",
+      role: "Cleaning Service",
+      phone: "+91 8897321456",
+      location: "Adyar, Chennai",
     },
     {
-      name: "Suresh Electricals",
-      role: "Electrician",
-      phone: "+91 9123456780",
-      location: "Medavakkam, Chennai",
+      name: "Rohit Gupta",
+      role: "Cleaning Service",
+      phone: "+91 9016782345",
+      location: "Anna Nagar, Chennai",
+    },
+    {
+      name: "Sanjay Iyer",
+      role: "Cleaning Service",
+      phone: "+91 9765432108",
+      location: "T. Nagar, Chennai",
+    },
+    {
+      name: "Prakash Yadav",
+      role: "Cleaning Service",
+      phone: "+91 9123987654",
+      location: "Porur, Chennai",
+    },
+    {
+      name: "Naveen Das",
+      role: "Cleaning Service",
+      phone: "+91 9345612789",
+      location: "Chromepet, Chennai",
+    },
+    {
+      name: "Harish Pillai",
+      role: "Cleaning Service",
+      phone: "+91 9871203456",
+      location: "Ambattur, Chennai",
     },
   ];
 

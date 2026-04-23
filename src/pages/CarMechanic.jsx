@@ -6,16 +6,40 @@ import ServiceList from "../components/ServiceList";
 const CarMechanic = () => {
   const data = [
     {
-      name: "Ravi Plumbing Works",
-      role: "Plumber",
-      phone: "+91 9876543210",
-      location: "Sembakkam, Chennai",
+      name: "Raghavendra Rao",
+      role: "Car Mechanic",
+      phone: "+91 9384726150",
+      location: "Ekkatuthangal, Chennai",
     },
     {
-      name: "Suresh Electricals",
-      role: "Electrician",
-      phone: "+91 9123456780",
-      location: "Medavakkam, Chennai",
+      name: "Imran Khan",
+      role: "Car Mechanic",
+      phone: "+91 9021567843",
+      location: "Triplicane, Chennai",
+    },
+    {
+      name: "Lokesh Kumar",
+      role: "Car Mechanic",
+      phone: "+91 9172635480",
+      location: "Koyambedu, Chennai",
+    },
+    {
+      name: "Praveen Shetty",
+      role: "Car Mechanic",
+      phone: "+91 9890345612",
+      location: "Alwarpet, Chennai",
+    },
+    {
+      name: "Faizal Ahmed",
+      role: "Car Mechanic",
+      phone: "+91 9756123489",
+      location: "Teynampet, Chennai",
+    },
+    {
+      name: "Bharath R",
+      role: "Car Mechanic",
+      phone: "+91 9001234786",
+      location: "Kolathur, Chennai",
     },
   ];
 
