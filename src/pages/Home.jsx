@@ -106,7 +106,7 @@ const services = [
   {
     id: 5,
     title: "AC & Appliance Repair",
-    link: "/plumbing",
+    link: "/ac-service",
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRy0dP11Ep40sO2Y4YXLNjCeXcMuqOlAniavA&s",
   },
   {

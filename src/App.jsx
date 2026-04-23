@@ -8,6 +8,7 @@ import CarMechanic from "./pages/CarMechanic";
 import Electrician from "./pages/Electrician";
 import BikeMechanic from "./pages/BikeMechanic";
 import Cleaner from "./pages/Cleaner";
+import AcService from "./pages/AcService";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <Route path="/car-mechanic" element={<CarMechanic />} />
       <Route path="/bike-mechanic" element={<BikeMechanic />} />
       <Route path="/cleaning-work" element={<Cleaner />} />
+      <Route path="/ac-service" element={<AcService />} />
 
       <Route path="/about" element={<About />} />
       <Route path="/help" element={<Help />} />
