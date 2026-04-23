@@ -24,7 +24,7 @@ const BikeMechanic = () => {
       <Navbar />
 
       <div className="flex-1">
-        <ServiceList title="Plumbing" data={data} />
+        <ServiceList title="Bike Mechanic" data={data} />
       </div>
       <Footer />
     </div>
