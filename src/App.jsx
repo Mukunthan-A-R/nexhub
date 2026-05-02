@@ -1,8 +1,10 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
+
 import Home from "./pages/Home";
 import About from "./pages/About";
-import Help from "./pages/Help";
+import Contact from "./pages/Contact";
+
 import Plumbing from "./pages/Plumbing";
 import CarMechanic from "./pages/CarMechanic";
 import Electrician from "./pages/Electrician";
@@ -23,7 +25,7 @@ const App = () => {
       <Route path="/ac-service" element={<AcService />} />
 
       <Route path="/about" element={<About />} />
-      <Route path="/help" element={<Help />} />
+      <Route path="/contact" element={<Contact />} />
     </Routes>
   );
 };
