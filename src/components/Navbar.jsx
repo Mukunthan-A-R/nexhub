@@ -1,5 +1,7 @@
 import { MapPin, Search, User } from "lucide-react";
 import { Link } from "react-router-dom";
+import { services } from "../data/services";
+import SearchBox from "./SearchBox";
 
 export default function Navbar() {
   return (
@@ -42,14 +44,7 @@ export default function Navbar() {
           </div>
 
           {/* Search Box */}
-          {/* <div className="flex items-center gap-2 border border-purple-600 bg-purple-700 rounded-md px-3 py-2 flex-1 text-sm text-purple-200">
-            <Search size={16} />
-            <input
-              type="text"
-              placeholder="Search for AC"
-              className="outline-none w-full bg-transparent placeholder-purple-300 text-white"
-            />
-          </div> */}
+          <SearchBox></SearchBox>
         </div>
 
         {/* RIGHT SECTION */}
