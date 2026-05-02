@@ -5,7 +5,7 @@ export default function BusinessOverview() {
         {/* IMAGE */}
         <div className="relative w-full md:w-1/2">
           <img
-            src="https://www.fplglaw.com/wp-content/uploads/2024/05/books-8594725_640.jpg"
+            src="https://club31women.com/wp-content/uploads/2022/05/club31women_5-Good-Reasons-Why-Cleaning-yes-cleaning-Actually-Matters.jpeg"
             alt="business"
             className="w-full h-75 md:h-105 object-cover rounded-2xl shadow-lg"
           />
