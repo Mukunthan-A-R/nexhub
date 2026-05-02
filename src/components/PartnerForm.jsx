@@ -45,20 +45,33 @@ const PartnerForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const formData = new FormData(e.target);
+    const validationErrors = validate();
+    setErrors(validationErrors);
+
+    if (Object.keys(validationErrors).length !== 0) return;
+
+    const formDataObj = new FormData(e.target);
 
     try {
       const res = await fetch(SCRIPT_URL, {
         method: "POST",
-        body: formData,
+        body: formDataObj,
       });
 
       const data = await res.json();
       console.log("Success:", data);
 
-      alert("Submitted successfully!");
+      // ✅ Clear form properly
+      setFormData({
+        name: "",
+        service: "",
+        phone: "",
+        location: "",
+        description: "",
+      });
 
-      e.target.reset();
+      // ✅ Show success popup
+      alert("Submitted successfully!");
     } catch (error) {
       console.error("Error:", error);
       alert("Something went wrong");
