@@ -24,7 +24,7 @@ export default function Footer() {
               <Link to="/contact">Contact</Link>
             </li>
             <li className="hover:text-white cursor-pointer">
-              <Link>Be a Business Partner</Link>
+              <Link to="/partner">Be a Business Partner</Link>
             </li>
           </ul>
         </div>
