@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { services } from "../data/services";
 
 const PartnerForm = () => {
   const [formData, setFormData] = useState({
@@ -8,6 +9,8 @@ const PartnerForm = () => {
     location: "",
     description: "",
   });
+
+  //   console.log(services);
 
   const [errors, setErrors] = useState({});
 
@@ -35,24 +38,30 @@ const PartnerForm = () => {
     return newErrors;
   };
 
+  const SCRIPT_URL =
+    "https://script.google.com/macros/s/AKfycbyTSdeUr7PQsdPd5tNCxXd_ZltGe6GTaUOBt3xdHRLnDobwIKG_QkzOPiHQyND_aCyZ/exec";
+
   // Handle submit
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const validationErrors = validate();
-    setErrors(validationErrors);
+    const formData = new FormData(e.target);
 
-    if (Object.keys(validationErrors).length === 0) {
-      console.log("Form Data:", formData);
-
-      // reset form
-      setFormData({
-        name: "",
-        service: "",
-        phone: "",
-        location: "",
-        description: "",
+    try {
+      const res = await fetch(SCRIPT_URL, {
+        method: "POST",
+        body: formData,
       });
+
+      const data = await res.json();
+      console.log("Success:", data);
+
+      alert("Submitted successfully!");
+
+      e.target.reset();
+    } catch (error) {
+      console.error("Error:", error);
+      alert("Something went wrong");
     }
   };
 
