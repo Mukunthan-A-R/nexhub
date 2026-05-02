@@ -1,6 +1,9 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import { Mail } from "lucide-react";
+import { Phone } from "lucide-react";
+import { MapPin } from "lucide-react";
 
 const Contact = () => {
   return (
@@ -31,7 +34,10 @@ const Contact = () => {
 
             <div className="space-y-5 pt-4">
               <div className="flex items-start gap-4">
-                <div className="bg-purple-100 p-3 rounded-lg">📧</div>
+                <div className="bg-purple-100 p-3 rounded-lg">
+                  {" "}
+                  <Mail />
+                </div>
                 <div>
                   <p className="font-medium text-gray-800">Email</p>
                   <p className="text-gray-600 text-sm">support@nexhub.com</p>
@@ -39,7 +45,9 @@ const Contact = () => {
               </div>
 
               <div className="flex items-start gap-4">
-                <div className="bg-purple-100 p-3 rounded-lg">📞</div>
+                <div className="bg-purple-100 p-3 rounded-lg">
+                  <Phone />
+                </div>
                 <div>
                   <p className="font-medium text-gray-800">Phone</p>
                   <p className="text-gray-600 text-sm">+91 98765 43210</p>
@@ -47,7 +55,9 @@ const Contact = () => {
               </div>
 
               <div className="flex items-start gap-4">
-                <div className="bg-purple-100 p-3 rounded-lg">📍</div>
+                <div className="bg-purple-100 p-3 rounded-lg">
+                  <MapPin />
+                </div>
                 <div>
                   <p className="font-medium text-gray-800">Location</p>
                   <p className="text-gray-600 text-sm">Chennai, Tamil Nadu</p>
