@@ -6,6 +6,7 @@ import BusinessOverview from "../components/BusinessOverview";
 import BusinessOverview2 from "../components/BusinessOverview2";
 import { Link } from "react-router-dom";
 import { services } from "../data/services";
+import ServicesCarousel from "../components/ServicesCarousel";
 
 export default function Home() {
   return (
@@ -71,6 +72,8 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      <ServicesCarousel services={services}></ServicesCarousel>
       <BusinessOverview></BusinessOverview>
       <BusinessOverview2></BusinessOverview2>
       <Footer></Footer>
