@@ -11,6 +11,7 @@ import Electrician from "./pages/Electrician";
 import BikeMechanic from "./pages/BikeMechanic";
 import Cleaner from "./pages/Cleaner";
 import AcService from "./pages/AcService";
+import Partner from "./pages/Partner";
 
 const App = () => {
   return (
@@ -26,6 +27,7 @@ const App = () => {
 
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="/Partner" element={<Partner />} />
     </Routes>
   );
 };
