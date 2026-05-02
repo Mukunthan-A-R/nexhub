@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { services } from "../data/services";
+import Swal from "sweetalert2";
 
 const PartnerForm = () => {
   const [formData, setFormData] = useState({
@@ -9,6 +10,7 @@ const PartnerForm = () => {
     location: "",
     description: "",
   });
+  const [loading, setLoading] = useState(false);
 
   //   console.log(services);
 
@@ -50,8 +52,9 @@ const PartnerForm = () => {
 
     if (Object.keys(validationErrors).length !== 0) return;
 
-    const formDataObj = new FormData(e.target);
+    setLoading(true);
 
+    const formDataObj = new FormData(e.target);
     try {
       const res = await fetch(SCRIPT_URL, {
         method: "POST",
@@ -70,11 +73,23 @@ const PartnerForm = () => {
         description: "",
       });
 
-      // ✅ Show success popup
-      alert("Submitted successfully!");
+      Swal.fire({
+        title: "Submitted!",
+        text: "Your details have been sent successfully.",
+        icon: "success",
+        confirmButtonText: "OK",
+        confirmButtonColor: "#7c3aed", // matches your purple theme
+      });
     } catch (error) {
       console.error("Error:", error);
-      alert("Something went wrong");
+
+      Swal.fire({
+        title: "Error",
+        text: "Something went wrong. Please try again.",
+        icon: "error",
+      });
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -155,9 +170,14 @@ const PartnerForm = () => {
 
         <button
           type="submit"
-          className="w-full bg-purple-700 text-white py-3 rounded-lg hover:bg-purple-800 transition"
+          disabled={loading}
+          className={`w-full py-3 rounded-lg text-white transition ${
+            loading
+              ? "bg-purple-400 cursor-not-allowed"
+              : "bg-purple-700 hover:bg-purple-800"
+          }`}
         >
-          Submit Details
+          {loading ? "Submitting..." : "Submit Details"}
         </button>
       </form>
     </div>
