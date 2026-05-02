@@ -42,7 +42,7 @@ export default function Mission() {
           <img
             src="https://images.unsplash.com/photo-1521791136064-7986c2920216"
             alt="team working"
-            className="rounded-2xl shadow-lg object-cover w-full h-[350px]"
+            className="rounded-2xl shadow-lg object-cover w-full h-[87]"
           />
 
           {/* Decorative glow */}
