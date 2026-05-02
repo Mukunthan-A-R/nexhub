@@ -7,7 +7,7 @@ export default function BusinessOverview() {
           <img
             src="https://club31women.com/wp-content/uploads/2022/05/club31women_5-Good-Reasons-Why-Cleaning-yes-cleaning-Actually-Matters.jpeg"
             alt="business"
-            className="w-full h-75 md:h-105 object-cover rounded-2xl shadow-lg"
+            className="w-full h-75 md:h-95 object-cover rounded-2xl shadow-lg"
           />
 
           {/* Soft glow */}
@@ -22,20 +22,23 @@ export default function BusinessOverview() {
           </h2>
 
           <p className="text-gray-600 leading-relaxed max-w-lg mx-auto md:mx-0">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam.
+            Book trusted local services in minutes. No searching, no waiting —
+            just the help you need, when you need it.
+          </p>
+          <p className="text-gray-600 leading-relaxed max-w-lg mx-auto md:mx-0">
+            From plumbing and electrical work to cleaning and repairs, we make
+            it easy to find trusted local services — all in one place.
           </p>
 
           {/* Stats */}
-          <div className="pt-4">
+          {/* <div className="pt-4">
             <h3 className="text-5xl md:text-6xl font-bold text-purple-900">
               35%
             </h3>
             <p className="text-purple-900 mt-2 text-sm max-w-xs mx-auto md:mx-0">
               increase in time saved for our customers
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
