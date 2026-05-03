@@ -5,43 +5,103 @@ import ServiceList from "../components/ServiceList";
 
 const Plumbing = () => {
   const data = [
-    {
-      name: "Murugan Selvam",
-      role: "Plumbing",
-      phone: "+91 9156723480",
-      location: "Royapettah, Chennai",
-    },
-    {
-      name: "Ramesh Babu",
-      role: "Plumbing",
-      phone: "+91 9843215670",
-      location: "Ashok Nagar, Chennai",
-    },
-    {
-      name: "Ganesh Kumar",
-      role: "Plumbing",
-      phone: "+91 9034567812",
-      location: "Vadapalani, Chennai",
-    },
-    {
-      name: "Selvakumar Mani",
-      role: "Plumbing",
-      phone: "+91 9786543201",
-      location: "Avadi, Chennai",
-    },
-    {
-      name: "Balaji Narayanan",
-      role: "Plumbing",
-      phone: "+91 9321456780",
-      location: "Mogappair, Chennai",
-    },
-    {
-      name: "Sathish Kumar",
-      role: "Plumbing",
-      phone: "+91 9012348756",
-      location: "Nanganallur, Chennai",
-    },
-  ];
+  {
+    name: "Sampath",
+    role: "Plumbing",
+    phone: "8870041057",
+    location: "Sembakkam, Chennai",
+  },
+  {
+    name: "Arun",
+    role: "Plumbing",
+    phone: "9941650233",
+    location: "Sembakkam, Chennai",
+  },
+  {
+    name: "Jeeva",
+    role: "Plumbing",
+    phone: "9551093017",
+    location: "Sembakkam, Chennai",
+  },
+  {
+    name: "Sundaram",
+    role: "Plumbing",
+    phone: "9840057790",
+    location: "Sembakkam, Chennai",
+  },
+  {
+    name: "Gopal",
+    role: "Plumbing",
+    phone: "9710343024",
+    location: "Sembakkam, Chennai",
+  },
+  {
+    name: "Mohan",
+    role: "Plumbing",
+    phone: "9841097088",
+    location: "Chitlapakkam, Chennai",
+  },
+  {
+    name: "Moni",
+    role: "Plumbing",
+    phone: "9551775556",
+    location: "Gowrivakkam, Chennai",
+  },
+  {
+    name: "Pandiyan",
+    role: "Plumbing",
+    phone: "9840526251",
+    location: "Pallikaranai, Chennai",
+  },
+  {
+    name: "Rajesh",
+    role: "Plumbing",
+    phone: "9840177888",
+    location: "Santhosapuram, Chennai",
+  },
+  {
+    name: "Sankar",
+    role: "Plumbing",
+    phone: "9840347817",
+    location: "Pallikaranai, Chennai",
+  },
+  {
+    name: "Venkatesh",
+    role: "Plumbing",
+    phone: "9884659865",
+    location: "Palavakkam, Chennai",
+  },
+  {
+    name: "Charles",
+    role: "Plumbing",
+    phone: "9791277726",
+    location: "Rajakilpakkam, Chennai",
+  },
+  {
+    name: "Gowsik",
+    role: "Plumbing",
+    phone: "9386645613",
+    location: "Sembakkam, Chennai",
+  },
+  {
+    name: "Sundaram",
+    role: "Plumbing",
+    phone: "9941828270",
+    location: "Sembakkam, Chennai",
+  },
+  {
+    name: "Jayaram",
+    role: "Plumbing",
+    phone: "9591779144",
+    location: "Sembakkam, Chennai",
+  },
+  {
+    name: "Unnikrishnan",
+    role: "Plumbing",
+    phone: "8124290416",
+    location: "Sembakkam, Chennai",
+  }
+];
 
   return (
     <div className="min-h-screen flex flex-col bg-[#f8f4fb] ">

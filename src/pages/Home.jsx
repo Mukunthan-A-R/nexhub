@@ -73,7 +73,7 @@ export default function Home() {
         </div>
       </div>
 
-      <ServicesCarousel services={services}></ServicesCarousel>
+      {/* <ServicesCarousel services={services}></ServicesCarousel> */}
       <BusinessOverview></BusinessOverview>
       <BusinessOverview2></BusinessOverview2>
       <Footer></Footer>
