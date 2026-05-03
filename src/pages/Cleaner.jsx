@@ -6,41 +6,23 @@ import ServiceList from "../components/ServiceList";
 const Cleaner = () => {
   const data = [
     {
-      name: "Ajay Nair",
+      name: "Hasthinapuram Cleaning Service",
       role: "Cleaning Service",
-      phone: "+91 8897321456",
-      location: "Adyar, Chennai",
-    },
+      phone: "9600186321",
+      location: "Hasthinapuram, Chennai",
+    }, 
     {
-      name: "Rohit Gupta",
+      name: "Narayanan",
       role: "Cleaning Service",
-      phone: "+91 9016782345",
-      location: "Anna Nagar, Chennai",
-    },
+      phone: "6385124579",
+      location: "Sembakkam, Chennai",
+    }, 
     {
-      name: "Sanjay Iyer",
+      name: "Sembakkam Cleanning (Water Tank, Sump)",
       role: "Cleaning Service",
-      phone: "+91 9765432108",
-      location: "T. Nagar, Chennai",
-    },
-    {
-      name: "Prakash Yadav",
-      role: "Cleaning Service",
-      phone: "+91 9123987654",
-      location: "Porur, Chennai",
-    },
-    {
-      name: "Naveen Das",
-      role: "Cleaning Service",
-      phone: "+91 9345612789",
-      location: "Chromepet, Chennai",
-    },
-    {
-      name: "Harish Pillai",
-      role: "Cleaning Service",
-      phone: "+91 9871203456",
-      location: "Ambattur, Chennai",
-    },
+      phone: "9363327948",
+      location: "Sembakkam, Chennai",
+    }, 
   ];
 
   return (
