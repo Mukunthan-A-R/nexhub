@@ -4,50 +4,92 @@ import Footer from "../components/Footer";
 import ServiceList from "../components/ServiceList";
 
 const Electrician = () => {
-  const data = [
-    {
-      name: "Ravi Kumar",
-      role: "AC Service",
-      phone: "+91 9876543210",
-      location: "Sembakkam, Chennai",
-    },
-    {
-      name: "Suresh Reddy",
-      role: "AC Service",
-      phone: "+91 9123456780",
-      location: "Medavakkam, Chennai",
-    },
-    {
-      name: "Arjun Patel",
-      role: "AC Service",
-      phone: "+91 9988776655",
-      location: "Velachery, Chennai",
-    },
-    {
-      name: "Kiran Nair",
-      role: "AC Service",
-      phone: "+91 9012345678",
-      location: "Tambaram, Chennai",
-    },
-    {
-      name: "Deepak Singh",
-      role: "AC Service",
-      phone: "+91 9345678123",
-      location: "Perumbakkam, Chennai",
-    },
-    {
-      name: "Vignesh Kumar",
-      role: "AC Service",
-      phone: "+91 9567890123",
-      location: "Sholinganallur, Chennai",
-    },
-    {
-      name: "Manoj Sharma",
-      role: "AC Service",
-      phone: "+91 9789012345",
-      location: "Pallikaranai, Chennai",
-    },
-  ];
+ const data = [
+  {
+    name: "Benjamin",
+    role: "Electrician",
+    phone: "9840368575",
+    location: "Pallavaram, Chennai",
+  },
+  {
+    name: "Chandru",
+    role: "Electrician",
+    phone: "9841746777",
+    location: "Duraipakkam, Chennai",
+  },
+  {
+    name: "Basker",
+    role: "Electrician",
+    phone: "9791072477",
+    location: "Gudavencherry, Chennai",
+  },
+  {
+    name: "Murugan",
+    role: "Electrician",
+    phone: "9841212164",
+    location: "Vengaivasal, Chennai",
+  },
+  {
+    name: "Antony",
+    role: "Electrician",
+    phone: "9677008095",
+    location: "Sembakkam, Chennai",
+  },
+  {
+    name: "Kalimuthu",
+    role: "Electrician",
+    phone: "9884918495",
+    location: "Thiruvanmiyur, Chennai",
+  },
+  {
+    name: "Raj",
+    role: "Electrician",
+    phone: "9940252941",
+    location: "Neelangarai, Chennai",
+  },
+  {
+    name: "Raja",
+    role: "Electrician",
+    phone: "8072999043",
+    location: "Sembakkam, Chennai",
+  },
+  {
+    name: "Saravanan",
+    role: "Electrician",
+    phone: "9791746064",
+    location: "Sembakkam, Chennai",
+  },
+  {
+    name: "Saravanan",
+    role: "Electrician",
+    phone: "9841581859",
+    location: "Sembakkam, Chennai",
+  },
+  {
+    name: "Sathyaram",
+    role: "Electrician",
+    phone: "7358108713",
+    location: "Sembakkam, Chennai",
+  },
+  {
+    name: "Suresh",
+    role: "Electrician",
+    phone: "8939768569",
+    location: "Sembakkam, Chennai",
+  },
+  {
+    name: "Sriram",
+    role: "Electrician",
+    phone: "9884166114",
+    location: "Sembakkam, Chennai",
+  },
+  {
+    name: "Johnson",
+    role: "Electrician",
+    phone: "9283207018",
+    location: "Sembakkam, Chennai",
+  }
+];
 
   return (
     <div className="min-h-screen flex flex-col bg-[#f8f4fb] ">
