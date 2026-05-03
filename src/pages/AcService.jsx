@@ -6,35 +6,18 @@ import ServiceList from "../components/ServiceList";
 const AcService = () => {
   const data = [
     {
-      name: "Arun Kumar",
+      name: "Onida AC Service Center",
       role: "AC Service",
-      phone: "+91 9845123670",
+      phone: "8531977592",
+      location: "Kovilambakkam, Chennai",
+    },
+    {
+      name: "Gavaskar",
+      role: "AC Service",
+      phone: "8608336399",
       location: "Sembakkam, Chennai",
     },
-    {
-      name: "Vikram Singh",
-      role: "AC Service",
-      phone: "+91 9786452310",
-      location: "Medavakkam, Chennai",
-    },
-    {
-      name: "Rahul Sharma",
-      role: "AC Service",
-      phone: "+91 9901234567",
-      location: "Velachery, Chennai",
-    },
-    {
-      name: "Karthik Raj",
-      role: "AC Service",
-      phone: "+91 9678452312",
-      location: "Tambaram, Chennai",
-    },
-    {
-      name: "Manoj Verma",
-      role: "AC Service",
-      phone: "+91 9812345678",
-      location: "Perumbakkam, Chennai",
-    },
+   
   ];
 
   return (
