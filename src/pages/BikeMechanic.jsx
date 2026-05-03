@@ -6,40 +6,40 @@ import ServiceList from "../components/ServiceList";
 const BikeMechanic = () => {
   const data = [
     {
-      name: "Dinesh Kumar",
+      name: "Balu",
       role: "Bike Mechanic",
-      phone: "+91 9023456781",
-      location: "Guindy, Chennai",
+      phone: "9841988738",
+      location: "Sembakkam, Chennai",
     },
     {
-      name: "Aravind Raj",
+      name: "Raja",
       role: "Bike Mechanic",
-      phone: "+91 9182736450",
-      location: "Kodambakkam, Chennai",
+      phone: "70110157966",
+      location: "Sembakkam, Chennai",
     },
     {
-      name: "Sunil Verma",
+      name: "Balu",
       role: "Bike Mechanic",
-      phone: "+91 9873401256",
-      location: "Mylapore, Chennai",
+      phone: "9962300269",
+      location: "Sembakkam, Chennai",
     },
     {
-      name: "Kishore Reddy",
+      name: "Ranjith",
       role: "Bike Mechanic",
-      phone: "+91 9012456783",
-      location: "Perungudi, Chennai",
+      phone: "7338941369",
+      location: "Padhuvancherry Chennai",
     },
     {
-      name: "Vikas Sharma",
+      name: "Jeyendra Nagar workshop",
       role: "Bike Mechanic",
-      phone: "+91 9765012348",
-      location: "Thoraipakkam, Chennai",
+      phone: "8667274214",
+      location: "Jeyendra Nagar, Chennai",
     },
     {
-      name: "Senthil Kumar",
+      name: "Thirumulai Nagar workshop",
       role: "Bike Mechanic",
-      phone: "+91 9345801276",
-      location: "Poonamallee, Chennai",
+      phone: "7200257564",
+      location: "Thirumulai Nagar, Chennai",
     },
   ];
 
