@@ -102,7 +102,7 @@ const Carpenter = () => {
       <Navbar />
 
       <div className="flex-1">
-        <ServiceList title="Car Mechanic" data={data} />
+        <ServiceList title="Carpenter" data={data} />
       </div>
       <Footer />
     </div>

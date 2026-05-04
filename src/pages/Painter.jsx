@@ -79,7 +79,7 @@ const Painter = () => {
       <Navbar />
 
       <div className="flex-1">
-        <ServiceList title="Car Mechanic" data={data} />
+        <ServiceList title="Painter" data={data} />
       </div>
       <Footer />
     </div>

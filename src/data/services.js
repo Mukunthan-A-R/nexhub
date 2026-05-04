@@ -36,4 +36,16 @@ export const services = [
     link: "/car-mechanic",
     img: "https://img.freepik.com/premium-vector/car-icon-outline-vector-isolated-white-background_1310542-4122.jpg",
   },
+  {
+    id: 7,
+    title: "Carpenter",
+    link: "/carpenter",
+    img: "https://cdn-icons-png.flaticon.com/512/94/94096.png",
+  },
+  {
+    id: 8,
+    title: "Painter",
+    link: "/painter",
+    img: "https://img.freepik.com/premium-vector/paint-brush-icon-vector-illustration_762414-380.jpg",
+  },
 ];
