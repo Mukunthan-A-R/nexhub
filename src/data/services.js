@@ -22,19 +22,19 @@ export const services = [
     id: 4,
     title: "Bike Mechanic",
     link: "/bike-mechanic",
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgzqd8DXW_S1NNIuVNNR4GAFKLhlWBsgt59g&s",
+    img: "https://www.freeiconspng.com/uploads/motorcycle-icons-5.png",
   },
   {
     id: 5,
     title: "AC & Appliance Repair",
     link: "/ac-service",
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRy0dP11Ep40sO2Y4YXLNjCeXcMuqOlAniavA&s",
+    img: "https://static.thenounproject.com/png/1218799-200.png",
   },
   {
     id: 6,
     title: "Car Mechanic",
     link: "/car-mechanic",
-    img: "https://img.freepik.com/premium-vector/car-icon-outline-vector-isolated-white-background_1310542-4122.jpg",
+    img: "https://images.icon-icons.com/2070/PNG/512/car_icon_126245.png",
   },
   {
     id: 7,
@@ -46,6 +46,6 @@ export const services = [
     id: 8,
     title: "Painter",
     link: "/painter",
-    img: "https://img.freepik.com/premium-vector/paint-brush-icon-vector-illustration_762414-380.jpg",
+    img: "https://www.freeiconspng.com/uploads/paint-brush-icon-10.png",
   },
 ];
