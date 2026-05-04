@@ -12,6 +12,8 @@ import BikeMechanic from "./pages/BikeMechanic";
 import Cleaner from "./pages/Cleaner";
 import AcService from "./pages/AcService";
 import Partner from "./pages/Partner";
+import Painter from "./pages/Painter";
+import Carpenter from "./pages/Carpenter";
 
 const App = () => {
   return (
@@ -24,6 +26,8 @@ const App = () => {
       <Route path="/bike-mechanic" element={<BikeMechanic />} />
       <Route path="/cleaning-work" element={<Cleaner />} />
       <Route path="/ac-service" element={<AcService />} />
+      <Route path="/painter" element={<Painter />} />
+      <Route path="/carpenter" element={<Carpenter />} />
 
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
